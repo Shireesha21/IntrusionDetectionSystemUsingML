@@ -1,4 +1,4 @@
-#MTH-IDS: A Multi-Tiered Hybrid Intrusion Detection System for Internet of Vehicles.
+**MTH-IDS: A Multi-Tiered Hybrid Intrusion Detection System for Internet of Vehicles.**
 Modern automobiles, particularly connected and autonomous vehicles, contain several electronic control units that are linked via intra-vehicle networks to implement various functionalities and conduct actions. In order to communicate with other vehicles, infrastructure, and smart gadgets, modern automobiles are also connected to external networks via vehicle-to-everything technology. Modern cars are becoming more useful and connected, but because to their broad attack surfaces, this also makes them more susceptible to cyberattacks that target both internal and external networks. A lot of effort has gone into creating intrusion detection systems (IDSs) that use machine learning techniques to identify hostile cyber-attacks in order to secure vehicle networks.
 
 In order to identify both known and unidentified assaults on vehicular networks, a multi-tiered hybrid IDS that combines a signature-based IDS and an anomaly-based IDS is proposed in this research. The vulnerabilities of intra-vehicle and external networks are also examined. The CICIDS2017 dataset and the CAN-intrusion-dataset, which represent the data from inside and outside of vehicles, respectively, show that the suggested system can accurately detect a variety of known attacks.
@@ -42,11 +42,11 @@ Next, A data science platform that runs on Windows, Apple, or Linux – Anaconda
 
 
 
-Libraries used:
+**Libraries used:**
 
 Libraries/packages used for data preprocessing and feature engineering:
 
-NumPy: 
+**NumPy:**
 “import numpy as np”
 
 NumPy is the fundamental package needed for scientific computing with Python. This package
@@ -63,35 +63,35 @@ container of generic data. Arbitrary data types can be defined. This allows NumP
 speedily integrate with a wide variety of databases.
 NumPy is a successor for two earlier scientific Python libraries: Numeric and Numarray.
 
-Pandas: 
+**Pandas:**
 
 “import pandas as pd”
 Python's Pandas package is used to manipulate data sets. It offers tools for data exploration, cleaning, analysis, and manipulation. Both "Panel Data" and "Python Data Analysis" are mentioned in the term "Pandas". With the aid of Pandas, we can examine large data sets and draw conclusions based on statistical principles.
-seaborn:
+**Seaborn:**
 “import seaborn as sns”
 A package called Seaborn uses Matplotlib as its foundation to plot graphs. In order to see random distributions, it will be used.
 
-matplotlib.pyplot:
+**matplotlib.pyplot:**
 
 “import matplotlib.pyplot as plt”
 
 A MATLAB-like interface is offered by the Matplotlib plugin Pyplot. With the ability to use Python and the benefit of being free and open-source, Matplotlib is made to be just as usable as MATLAB.
 
-from skyline.preprocessing import LabelEncoder:
+**From skyline.preprocessing import LabelEncoder:**
 
 “from skyline.preprocessing import LabelEncoder”
 
 Target labels with values between 0 and n classes-1 should be encoded.
 Instead of encoding the input X, this transformer should be used to encode the target values, or y.
 
-from sklearn.model_selection import train_test_split:
+**From sklearn.model_selection import train_test_split:**
 
 “from sklearn.model_selection import train_test_split”
 
 Python's train test split method divides arrays or matrices into random subsets for the train and test sets of data, respectively.
 
 
-Data preprocessing and feature engineering execution flow:
+**Data preprocessing and feature engineering execution flow:**
 
 1. To preprocess data- CICIDS2017 we first imported python libraries like numpy, pandas, sklearn, matplotlib
 
@@ -120,7 +120,7 @@ Used data visualization for the clear picture of network attacks.
 In order to visualize the data present in the datasets we have used piechart and barcharts.
 
 
-Code: 
+**Code:**
 
  **<p align="center">Figure 4: Visualization Of Data Code Sample.</p>**
 <p align="center">
@@ -150,7 +150,7 @@ use k-means to cluster the data samples and select a proportion of data from eac
 6. Feature Engineering: In order to achieve this, first we calculate the sum of importance scores and then select the important features from top to bottom until the accumulated importance reaches 90%. 
 
 
-Execution flow
+**Execution flow**
 
  **<p align="center">Figure 6: Flow Chart</p>**
 <p align="center">
@@ -158,8 +158,16 @@ Execution flow
 </p>
 
  
-Issues experiencing and solutions:
+**Issues experiencing and solutions:**
 
-Few installation errors 
+We Faced Few errors while installing the softwares such as python version not compatible for our code so we reinstalled the python 3 version and Few Errors in packages.
 
-![image](https://user-images.githubusercontent.com/126938301/222877032-da4cef0d-2acd-4061-a547-9c3d529b60b8.png)
+**What is going to be done during the next round?**
+CICIDS2017 dataset is used in the existing system, for the zero-day attack detection on this dataset the F1-score is 0.800. In the proposed system we will be using CAN-intrusion-dataset to detect both known and unknown cyber- attacks on vehicular networks with optimal performance. In the existing system only four algorithms named decision tree (DT), random forest (RF), extra trees (ET) and extreme gradient boosting (XGBoost) are used to detect the attacks.where as we will be using neural network algorithms like Convolutional Neural Network (CNN), Long short-term memory (LSTM) etc to improve the accuracy of the existing system. The four main stages of the proposed system are data pre-processing, feature engineering, a signature-based IDS, and an anomaly-based IDS. In data pre-processing the raw data is prepared for another data processing procedure. Feature engineering is the process of reducing the number of input variables when developing a predictive model. Signature-based anomaly detection is a type of intrusion detection method that involves looking for known patterns of malicious activity, called signatures, in network traffic or system logs, whereas in Anomaly-based intrusion detection system (IDS) is a type of IDS that detects cyber-attacks by identifying deviations from normal or expected patterns of behavior in network traffic or system activity.****
+
+
+
+
+References:
+
+https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-Machine-Learning

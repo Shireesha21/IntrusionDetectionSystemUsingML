@@ -1,4 +1,4 @@
-MTH-IDS: A Multi-Tiered Hybrid Intrusion Detection System for Internet of Vehicles.
+#MTH-IDS: A Multi-Tiered Hybrid Intrusion Detection System for Internet of Vehicles.
 Modern automobiles, particularly connected and autonomous vehicles, contain several electronic control units that are linked via intra-vehicle networks to implement various functionalities and conduct actions. In order to communicate with other vehicles, infrastructure, and smart gadgets, modern automobiles are also connected to external networks via vehicle-to-everything technology. Modern cars are becoming more useful and connected, but because to their broad attack surfaces, this also makes them more susceptible to cyberattacks that target both internal and external networks. A lot of effort has gone into creating intrusion detection systems (IDSs) that use machine learning techniques to identify hostile cyber-attacks in order to secure vehicle networks.
 
 In order to identify both known and unidentified assaults on vehicular networks, a multi-tiered hybrid IDS that combines a signature-based IDS and an anomaly-based IDS is proposed in this research. The vulnerabilities of intra-vehicle and external networks are also examined. The CICIDS2017 dataset and the CAN-intrusion-dataset, which represent the data from inside and outside of vehicles, respectively, show that the suggested system can accurately detect a variety of known attacks.
@@ -8,7 +8,7 @@ A stacking ensemble model and a Bayesian optimization with tree Parzen estimator
 A cluster labeling (CL)k-means used as an unsupervised learner for zero-day attack detection; 
 Two biased classifiers and a Bayesian optimization with Gaussian process (BO-GP) method for unsupervised learner optimization.
 
-Software setup:
+**Software setup:**
 
 
 In order to implement this paper, initially python 3 has been installed.
@@ -24,7 +24,7 @@ The below steps are followed to install python 3:
 Next, A data science platform that runs on Windows, Apple, or Linux – Anaconda has been installed. Where it allows environments to be created for previous versions of Python or R or even later versions. Applications, such as Jupyter Notebook and Spyder, may be installed for each of these environments. The Navigator allows updating packages, creating environments, and launching applications.
  
 
-
+https://github.com/Shireesha21/MTH_IDS_IoV/blob/main/MicrosoftTeams-image%20(3).png
  
  
 

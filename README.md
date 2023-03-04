@@ -23,8 +23,12 @@ The below steps are followed to install python 3:
 7. Verify pip was installed.
 Next, A data science platform that runs on Windows, Apple, or Linux – Anaconda has been installed. Where it allows environments to be created for previous versions of Python or R or even later versions. Applications, such as Jupyter Notebook and Spyder, may be installed for each of these environments. The Navigator allows updating packages, creating environments, and launching applications.
  
+ 
+ **<p align="center">Figure 1: Sample.</p>**
+<p align="center">
+<img src="https://github.com/Shireesha21/MTH_IDS_IoV/blob/main/MicrosoftTeams-image%20(3).png" width="280" />
+</p>
 
-https://github.com/Shireesha21/MTH_IDS_IoV/blob/main/MicrosoftTeams-image%20(3).png
  
  
 

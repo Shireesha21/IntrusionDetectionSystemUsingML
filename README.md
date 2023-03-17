@@ -152,7 +152,7 @@ use k-means to cluster the data samples and select a proportion of data from eac
 
 **Execution flow**
 
- **<p align="center">Figure 6: Flow Chart</p>**
+ **<p align="center">Figure 7: Flow Chart</p>**
 <p align="center">
 <img src="https://github.com/Shireesha21/MTH_IDS_IoV/blob/main/MicrosoftTeams-image%20(5).png" width="500" />
 </p>

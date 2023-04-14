@@ -10,14 +10,14 @@ Two biased classifiers and a Bayesian optimization with Gaussian process (BO-GP)
 
 **Required Environments and Softwares**
 
-[Anaconda Navigator 3 ](https://www.anaconda.com/products/distribution/ "Anaconda Navigator 3")
-[Jupyter version 6.3.0] ( In anaconda navigator you can launch the jupyter nodebook )
-[Python 3]( https://www.python.org/downloads/ "Python 3")
-[Google Collab]( https://colab.research.google.com/ )
+- [Anaconda Navigator 3 ](https://www.anaconda.com/products/distribution/ "Anaconda Navigator 3")
+   - [Jupyter version 6.3.0] ( In anaconda navigator you can launch the jupyter nodebook )
+- [Python 3]( https://www.python.org/downloads/ "Python 3")
+- [Google Collab]( https://colab.research.google.com/ )
 **Datasets :**
-[CICIDS2017](https://www.unb.ca/cic/datasets/ids-2017.html "CICIDS2017")
-[CAN_Intrusion_Dataset](https://www.dropbox.com/sh/b0asam3c45k607a/AAChCVjjIG5v4popd1FdryKSa?dl=0/ "CAN Intrusion Data Set").
-[AWS IOT Fleetwise](https://us-east-1.console.aws.amazon.com/iotfleetwise/home?region=us-east-1# "AWS IOT Fleetwise")
+- [CICIDS2017](https://www.unb.ca/cic/datasets/ids-2017.html "CICIDS2017")
+- [CAN_Intrusion_Dataset](https://www.dropbox.com/sh/b0asam3c45k607a/AAChCVjjIG5v4popd1FdryKSa?dl=0/ "CAN Intrusion Data Set").
+- [AWS IOT Fleetwise](https://us-east-1.console.aws.amazon.com/iotfleetwise/home?region=us-east-1# "AWS IOT Fleetwise")
 
 **Libraries used:**
 

@@ -8,22 +8,23 @@ A stacking ensemble model and a Bayesian optimization with tree Parzen estimator
 A cluster labeling (CL)k-means used as an unsupervised learner for zero-day attack detection; 
 Two biased classifiers and a Bayesian optimization with Gaussian process (BO-GP) method for unsupervised learner optimization.
 
-**Required Environments and Softwares**
+**Required Environments and Softwares :**
 
 - [Anaconda Navigator 3 ](https://www.anaconda.com/products/distribution/ "Anaconda Navigator 3"). 
    - [Jupyter version 6.3.0] ( In anaconda navigator you can launch the jupyter nodebook ).  
 - [Python 3]( https://www.python.org/downloads/ "Python 3"). 
 - [Google Collab]( https://colab.research.google.com/ ). 
+
 **Datasets :**
 - [CICIDS2017](https://www.unb.ca/cic/datasets/ids-2017.html "CICIDS2017"). 
 - [CAN_Intrusion_Dataset](https://www.dropbox.com/sh/b0asam3c45k607a/AAChCVjjIG5v4popd1FdryKSa?dl=0/ "CAN Intrusion Data Set").  
 - [AWS IOT Fleetwise](https://us-east-1.console.aws.amazon.com/iotfleetwise/home?region=us-east-1# "AWS IOT Fleetwise"). 
 
-**Libraries used:**
+**Libraries used :**
 
 Libraries/packages used for data preprocessing and feature engineering:
 
-**NumPy:**
+**NumPy :**
 “import numpy as np”
 
 1. NumPy is the fundamental package needed for scientific computing with Python. This package
@@ -35,29 +36,29 @@ contains:
 • sophisticated random number capabilities
 NumPy is a successor for two earlier scientific Python libraries: Numeric and Numarray.
 
-**Pandas:**
+**Pandas :**
 
 “import pandas as pd”
 1. Python's Pandas package is used to manipulate data sets. It offers tools for data exploration, cleaning, analysis, and manipulation. Both "Panel Data" and "Python Data Analysis" are mentioned in the term "Pandas". With the aid of Pandas, we can examine large data sets and draw conclusions based on statistical principles.
 
-**Seaborn:**
+**Seaborn :**
 “import seaborn as sns”
 A package called Seaborn uses Matplotlib as its foundation to plot graphs. In order to see random distributions, it will be used.
 
-**matplotlib.pyplot:**
+**matplotlib.pyplot :**
 
 “import matplotlib.pyplot as plt”
 
 A MATLAB-like interface is offered by the Matplotlib plugin Pyplot. With the ability to use Python and the benefit of being free and open-source, Matplotlib is made to be just as usable as MATLAB.
 
-**From skyline.preprocessing import LabelEncoder:**
+**From skyline.preprocessing import LabelEncoder :**
 
 “from skyline.preprocessing import LabelEncoder”
 
 Target labels with values between 0 and n classes-1 should be encoded.
 Instead of encoding the input X, this transformer should be used to encode the target values, or y.
 
-**From sklearn.model_selection import train_test_split:**
+**From sklearn.model_selection import train_test_split :**
 
 “from sklearn.model_selection import train_test_split”
 
@@ -77,18 +78,22 @@ Python's train test split method divides arrays or matrices into random subsets 
 </p>
 
  
-**Issues experiencing and solutions:**
+**Issues experiencing and solutions :**
 
-**Minor Issues and their solutions**
+**Minor Issues and their solutions :**
 1. Installation 
+
    Re-installed upgraded versions
 2. Dataset compatability with tools
+
    Switched to Google collab as it accepts large datasets.
 3. Data 
+
    Implemented Data preprocessing to encounter the missing/invalid data.
 
 **Major Issues and their solutions**
 1. Choosing appropriate service for creating the network environment.
+
    AWS IOT Fleetwise provides over-the-air (OTA) update and automation functionalities.
 2. Configuring the dbc files
 3. Campaigning the Vehicle using AWS IOT Fleetwise 
@@ -96,7 +101,7 @@ Python's train test split method divides arrays or matrices into random subsets 
  
    
 
-**What is going to be done during the next round?**
+**FeedBack and Suggestions**
 ****
 
 

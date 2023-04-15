@@ -72,9 +72,14 @@ Python's train test split method divides arrays or matrices into random subsets 
 
 **Execution flow**
 
- **<p align="center">Figure 7: Flow Chart</p>**
+ **<p align="center">Flow Chart</p>**
 <p align="center">
-<img src="https://github.com/Shireesha21/MTH_IDS_IoV/blob/main/MicrosoftTeams-image%20(5).png" width="500" />
+<img src="https://github.com/Shireesha21/MTH_IDS_IoV/blob/main/FlowExecution.png" width="500" />
+</p>
+
+ **<p align="center">AWS Execution</p>**
+<p align="center">
+<img src="https://github.com/Shireesha21/MTH_IDS_IoV/blob/main/AWSExecution.png" width="500" />
 </p>
 
  

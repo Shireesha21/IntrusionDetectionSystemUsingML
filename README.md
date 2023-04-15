@@ -106,7 +106,6 @@ Python's train test split method divides arrays or matrices into random subsets 
  
    
 **FeedBack and Suggestions**
-****
 
 Feedback
 

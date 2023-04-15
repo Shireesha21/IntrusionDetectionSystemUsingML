@@ -118,6 +118,8 @@ Instead of using AWS, can use Network Simulators like GNS3. Create a topology wi
 
 References:
 
-https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-Machine-Learning
-
-https://docs.aws.amazon.com/pdfs/iot-fleetwise/latest/developerguide/iot-fleetwise-guide.pdf#process-visualize-data
+- https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-Machine-Learning
+- https://github.com/mehrotrasan16/CS581-CAN-DO-Project/blob/main/code/
+- https://docs.aws.amazon.com/pdfs/iot-fleetwise/latest/developerguide/iot-fleetwise-guide.pdf#process-visualize-data
+- Code for the Machine Learning Algorithms is taken from internet.
+- 

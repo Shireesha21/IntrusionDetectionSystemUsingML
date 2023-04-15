@@ -27,7 +27,7 @@ Libraries/packages used for data preprocessing and feature engineering:
 **NumPy :**
 “import numpy as np”
 
-1. NumPy is the fundamental package needed for scientific computing with Python. This package
+- NumPy is the fundamental package needed for scientific computing with Python. This package
 contains:
 • A powerful N-dimensional array object
 • sophisticated (broadcasting) functions
@@ -39,7 +39,7 @@ NumPy is a successor for two earlier scientific Python libraries: Numeric and Nu
 **Pandas :**
 
 “import pandas as pd”
-1. Python's Pandas package is used to manipulate data sets. It offers tools for data exploration, cleaning, analysis, and manipulation. Both "Panel Data" and "Python Data Analysis" are mentioned in the term "Pandas". With the aid of Pandas, we can examine large data sets and draw conclusions based on statistical principles.
+- Python's Pandas package is used to manipulate data sets. It offers tools for data exploration, cleaning, analysis, and manipulation. Both "Panel Data" and "Python Data Analysis" are mentioned in the term "Pandas". With the aid of Pandas, we can examine large data sets and draw conclusions based on statistical principles.
 
 **Seaborn :**
 “import seaborn as sns”

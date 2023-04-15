@@ -100,13 +100,20 @@ Python's train test split method divides arrays or matrices into random subsets 
 
  
    
-
 **FeedBack and Suggestions**
 ****
 
+Feedback
 
+To improve the accuracy of identifying vulnerabilities and attacks on our vehicle dataset using hybrid-based algorithms, we can preprocess the expanded dataset through techniques such as data cleaning, normalization, feature extraction, and dimensionality reduction. After applying these techniques, the algorithms can be reapplied to obtain accurate results and insights.
+
+Suggestions
+
+Instead of using AWS, can use Network Simulators like GNS3. Create a topology with nodes and communicate between them and Use Wireshark and npcap to capture the data. Perform an attack and apply ML algorithms.
 
 
 References:
 
 https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-Machine-Learning
+
+https://docs.aws.amazon.com/pdfs/iot-fleetwise/latest/developerguide/iot-fleetwise-guide.pdf#process-visualize-data
